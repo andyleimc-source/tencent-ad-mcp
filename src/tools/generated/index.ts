@@ -343,7 +343,7 @@ export function registerGeneratedTools(server: McpServer) {
   registerMuseAudiosTools(server);
   registerMuseDeriveSwitchSettingsTools(server);
   registerNegativewordsTools(server);
-  registerOauthTools(server);
+  // registerOauthTools(server); // skipped: already registered in src/tools/oauth.ts
   registerObjectCommentFlagTools(server);
   registerOfficialLandingPageTools(server);
   registerOfficialLandingPageComponentTools(server);
