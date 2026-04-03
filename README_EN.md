@@ -114,3 +114,11 @@ npm run generate
 ## License
 
 Apache-2.0
+
+---
+
+## Follow Me
+
+<img src="./雷码工坊微信公众号.jpg" alt="雷码工坊笔记 WeChat Official Account" width="200" />
+
+**雷码工坊笔记** — Scan to follow on WeChat
