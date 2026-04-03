@@ -1,0 +1,2846 @@
+[
+  {
+    "module": "account_subsidy",
+    "operation": "get",
+    "method": "GET",
+    "path": "/account_subsidy/get",
+    "funcName": "Get",
+    "comment": "获取广告主关联的补贴账号",
+    "hasBody": false
+  },
+  {
+    "module": "account_version",
+    "operation": "get",
+    "method": "GET",
+    "path": "/account_version/get",
+    "funcName": "Get",
+    "comment": "获取广告主新版API投放状态版本",
+    "hasBody": false
+  },
+  {
+    "module": "ad_label",
+    "operation": "get",
+    "method": "GET",
+    "path": "/ad_label/get",
+    "funcName": "Get",
+    "comment": "获取广告标签",
+    "hasBody": false
+  },
+  {
+    "module": "ad_param",
+    "operation": "get",
+    "method": "GET",
+    "path": "/ad_param/get",
+    "funcName": "Get",
+    "comment": "获取词包",
+    "hasBody": false
+  },
+  {
+    "module": "ad_union_reports",
+    "operation": "get",
+    "method": "GET",
+    "path": "/ad_union_reports/get",
+    "funcName": "Get",
+    "comment": "联盟广告位报表接口",
+    "hasBody": false
+  },
+  {
+    "module": "adcreative_previews",
+    "operation": "add",
+    "method": "POST",
+    "path": "/adcreative_previews/add",
+    "funcName": "Add",
+    "comment": "绑定广告预览受众",
+    "hasBody": true
+  },
+  {
+    "module": "adcreative_previews_qrcode",
+    "operation": "get",
+    "method": "GET",
+    "path": "/adcreative_previews_qrcode/get",
+    "funcName": "Get",
+    "comment": "获取广告预览二维码",
+    "hasBody": false
+  },
+  {
+    "module": "adgroup_negativewords",
+    "operation": "add",
+    "method": "POST",
+    "path": "/adgroup_negativewords/add",
+    "funcName": "Add",
+    "comment": "新增广告否定词",
+    "hasBody": true
+  },
+  {
+    "module": "adgroup_negativewords",
+    "operation": "get",
+    "method": "GET",
+    "path": "/adgroup_negativewords/get",
+    "funcName": "Get",
+    "comment": "查询广告否定词",
+    "hasBody": false
+  },
+  {
+    "module": "adgroup_negativewords",
+    "operation": "update",
+    "method": "POST",
+    "path": "/adgroup_negativewords/update",
+    "funcName": "Update",
+    "comment": "更新广告否定词",
+    "hasBody": true
+  },
+  {
+    "module": "adgroups",
+    "operation": "updatedatetime",
+    "method": "POST",
+    "path": "/adgroups/update_datetime",
+    "funcName": "UpdateDatetime",
+    "comment": "批量修改广告投放起止时间",
+    "hasBody": true
+  },
+  {
+    "module": "advertiser_config",
+    "operation": "add",
+    "method": "POST",
+    "path": "/advertiser_config/add",
+    "funcName": "Add",
+    "comment": "添加广告主配置",
+    "hasBody": true
+  },
+  {
+    "module": "advertiser_config",
+    "operation": "get",
+    "method": "GET",
+    "path": "/advertiser_config/get",
+    "funcName": "Get",
+    "comment": "查询广告主配置",
+    "hasBody": false
+  },
+  {
+    "module": "advertiser_daily_budget",
+    "operation": "get",
+    "method": "GET",
+    "path": "/advertiser_daily_budget/get",
+    "funcName": "Get",
+    "comment": "获取竞价广告账户日预算",
+    "hasBody": false
+  },
+  {
+    "module": "advertiser_daily_budget",
+    "operation": "update",
+    "method": "POST",
+    "path": "/advertiser_daily_budget/update",
+    "funcName": "Update",
+    "comment": "更新竞价广告账户日预算",
+    "hasBody": true
+  },
+  {
+    "module": "agency",
+    "operation": "get",
+    "method": "GET",
+    "path": "/agency/get",
+    "funcName": "Get",
+    "comment": "查询腾讯广告服务商信息",
+    "hasBody": false
+  },
+  {
+    "module": "agency_business_unit",
+    "operation": "add",
+    "method": "POST",
+    "path": "/agency_business_unit/add",
+    "funcName": "Add",
+    "comment": "创建服务商业务单元",
+    "hasBody": true
+  },
+  {
+    "module": "agency_business_unit",
+    "operation": "update",
+    "method": "POST",
+    "path": "/agency_business_unit/update",
+    "funcName": "Update",
+    "comment": "修改服务商业务单元",
+    "hasBody": true
+  },
+  {
+    "module": "agency_business_unit_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/agency_business_unit_list/get",
+    "funcName": "Get",
+    "comment": "查询服务商业务单元列表",
+    "hasBody": false
+  },
+  {
+    "module": "agency_business_unit_list_account",
+    "operation": "get",
+    "method": "GET",
+    "path": "/agency_business_unit_list_account/get",
+    "funcName": "Get",
+    "comment": "查询服务商业务单元下的广告主账号列表",
+    "hasBody": false
+  },
+  {
+    "module": "agency_business_unit_list_by_account",
+    "operation": "get",
+    "method": "POST",
+    "path": "/agency_business_unit_list_by_account/get",
+    "funcName": "Get",
+    "comment": "查询广告主账号所属的服务商业务单元",
+    "hasBody": true
+  },
+  {
+    "module": "agency_realtime_cost",
+    "operation": "get",
+    "method": "GET",
+    "path": "/agency_realtime_cost/get",
+    "funcName": "Get",
+    "comment": "服务商当日分账户实时消耗",
+    "hasBody": false
+  },
+  {
+    "module": "agency_wallet_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/agency_wallet_list/get",
+    "funcName": "Get",
+    "comment": "获取代理商创建的共享钱包信息列表",
+    "hasBody": false
+  },
+  {
+    "module": "android_channel",
+    "operation": "get",
+    "method": "GET",
+    "path": "/android_channel/get",
+    "funcName": "Get",
+    "comment": "获取Android渠道包",
+    "hasBody": false
+  },
+  {
+    "module": "async_tasks",
+    "operation": "add",
+    "method": "POST",
+    "path": "/async_tasks/add",
+    "funcName": "Add",
+    "comment": "创建异步任务",
+    "hasBody": true
+  },
+  {
+    "module": "async_tasks",
+    "operation": "get",
+    "method": "GET",
+    "path": "/async_tasks/get",
+    "funcName": "Get",
+    "comment": "获取异步任务",
+    "hasBody": false
+  },
+  {
+    "module": "audience_grant_relations",
+    "operation": "add",
+    "method": "POST",
+    "path": "/audience_grant_relations/add",
+    "funcName": "Add",
+    "comment": "添加人群授权",
+    "hasBody": true
+  },
+  {
+    "module": "audience_grant_relations",
+    "operation": "get",
+    "method": "GET",
+    "path": "/audience_grant_relations/get",
+    "funcName": "Get",
+    "comment": "获取人群授权信息",
+    "hasBody": false
+  },
+  {
+    "module": "barrage",
+    "operation": "add",
+    "method": "POST",
+    "path": "/barrage/add",
+    "funcName": "Add",
+    "comment": "添加弹幕",
+    "hasBody": true
+  },
+  {
+    "module": "barrage",
+    "operation": "get",
+    "method": "GET",
+    "path": "/barrage/get",
+    "funcName": "Get",
+    "comment": "获取弹幕",
+    "hasBody": false
+  },
+  {
+    "module": "barrage_recommend",
+    "operation": "get",
+    "method": "GET",
+    "path": "/barrage_recommend/get",
+    "funcName": "Get",
+    "comment": "查询运营推荐弹幕列表",
+    "hasBody": false
+  },
+  {
+    "module": "batch_async_request_specification",
+    "operation": "get",
+    "method": "GET",
+    "path": "/batch_async_request_specification/get",
+    "funcName": "Get",
+    "comment": "获取批量异步请求任务详情",
+    "hasBody": false
+  },
+  {
+    "module": "batch_async_requests",
+    "operation": "add",
+    "method": "POST",
+    "path": "/batch_async_requests/add",
+    "funcName": "Add",
+    "comment": "创建批量异步请求任务",
+    "hasBody": true
+  },
+  {
+    "module": "batch_async_requests",
+    "operation": "get",
+    "method": "GET",
+    "path": "/batch_async_requests/get",
+    "funcName": "Get",
+    "comment": "获取批量异步请求任务列表",
+    "hasBody": false
+  },
+  {
+    "module": "batch_requests",
+    "operation": "add",
+    "method": "POST",
+    "path": "/batch_requests/add",
+    "funcName": "Add",
+    "comment": "创建批量请求",
+    "hasBody": true
+  },
+  {
+    "module": "bid_simulation",
+    "operation": "get",
+    "method": "GET",
+    "path": "/bid_simulation/get",
+    "funcName": "Get",
+    "comment": "出价模拟预估",
+    "hasBody": false
+  },
+  {
+    "module": "bidword",
+    "operation": "add",
+    "method": "POST",
+    "path": "/bidword/add",
+    "funcName": "Add",
+    "comment": "创建关键词",
+    "hasBody": true
+  },
+  {
+    "module": "bidword",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/bidword/delete",
+    "funcName": "Delete",
+    "comment": "删除关键词",
+    "hasBody": true
+  },
+  {
+    "module": "bidword",
+    "operation": "get",
+    "method": "GET",
+    "path": "/bidword/get",
+    "funcName": "Get",
+    "comment": "获取关键词",
+    "hasBody": false
+  },
+  {
+    "module": "bidword",
+    "operation": "update",
+    "method": "POST",
+    "path": "/bidword/update",
+    "funcName": "Update",
+    "comment": "更新关键词",
+    "hasBody": true
+  },
+  {
+    "module": "bidword_flow",
+    "operation": "get",
+    "method": "GET",
+    "path": "/bidword_flow/get",
+    "funcName": "Get",
+    "comment": "查询关键词流量接口",
+    "hasBody": false
+  },
+  {
+    "module": "brand",
+    "operation": "add",
+    "method": "POST",
+    "path": "/brand/add",
+    "funcName": "Add",
+    "comment": "创建品牌形象",
+    "hasBody": true
+  },
+  {
+    "module": "brand",
+    "operation": "get",
+    "method": "GET",
+    "path": "/brand/get",
+    "funcName": "Get",
+    "comment": "获取品牌形象列表",
+    "hasBody": false
+  },
+  {
+    "module": "business_point",
+    "operation": "get",
+    "method": "GET",
+    "path": "/business_point/get",
+    "funcName": "Get",
+    "comment": "查询行业业务点信息",
+    "hasBody": false
+  },
+  {
+    "module": "business_unit",
+    "operation": "add",
+    "method": "POST",
+    "path": "/business_unit/add",
+    "funcName": "Add",
+    "comment": "创建客户业务单元",
+    "hasBody": true
+  },
+  {
+    "module": "business_unit_account",
+    "operation": "get",
+    "method": "POST",
+    "path": "/business_unit_account/get",
+    "funcName": "Get",
+    "comment": "查询广告主账号所属的业务单元",
+    "hasBody": true
+  },
+  {
+    "module": "business_unit_account",
+    "operation": "update",
+    "method": "POST",
+    "path": "/business_unit_account/update",
+    "funcName": "Update",
+    "comment": "修改客户业务单元帐户",
+    "hasBody": true
+  },
+  {
+    "module": "business_unit_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/business_unit_list/get",
+    "funcName": "Get",
+    "comment": "查询业务单元列表",
+    "hasBody": false
+  },
+  {
+    "module": "categories",
+    "operation": "get",
+    "method": "GET",
+    "path": "/categories/get",
+    "funcName": "Get",
+    "comment": "获取腾讯系商品类目",
+    "hasBody": false
+  },
+  {
+    "module": "categories_attribute",
+    "operation": "get",
+    "method": "GET",
+    "path": "/categories_attribute/get",
+    "funcName": "Get",
+    "comment": "获取商品属性",
+    "hasBody": false
+  },
+  {
+    "module": "channels_comment",
+    "operation": "add",
+    "method": "POST",
+    "path": "/channels_comment/add",
+    "funcName": "Add",
+    "comment": "回复视频号评论",
+    "hasBody": true
+  },
+  {
+    "module": "channels_comment",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/channels_comment/delete",
+    "funcName": "Delete",
+    "comment": "删除视频号评论",
+    "hasBody": true
+  },
+  {
+    "module": "channels_finderobject",
+    "operation": "get",
+    "method": "GET",
+    "path": "/channels_finderobject/get",
+    "funcName": "Get",
+    "comment": "获取视频号动态详情",
+    "hasBody": false
+  },
+  {
+    "module": "channels_livenoticeinfo",
+    "operation": "get",
+    "method": "GET",
+    "path": "/channels_livenoticeinfo/get",
+    "funcName": "Get",
+    "comment": "获取视频号当前的预约直播信息",
+    "hasBody": false
+  },
+  {
+    "module": "channels_userpageobjects",
+    "operation": "get",
+    "method": "GET",
+    "path": "/channels_userpageobjects/get",
+    "funcName": "Get",
+    "comment": "获取视频号动态列表",
+    "hasBody": false
+  },
+  {
+    "module": "comment_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/comment_list/get",
+    "funcName": "Get",
+    "comment": "* @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().",
+    "hasBody": false
+  },
+  {
+    "module": "component_depends",
+    "operation": "get",
+    "method": "GET",
+    "path": "/component_depends/get",
+    "funcName": "Get",
+    "comment": "查询创意组件字段选项对于其他组件的依赖信息",
+    "hasBody": false
+  },
+  {
+    "module": "component_detail",
+    "operation": "get",
+    "method": "GET",
+    "path": "/component_detail/get",
+    "funcName": "Get",
+    "comment": "获取创意组件详情",
+    "hasBody": false
+  },
+  {
+    "module": "component_element_urge_review",
+    "operation": "add",
+    "method": "POST",
+    "path": "/component_element_urge_review/add",
+    "funcName": "Add",
+    "comment": "创意组件元素催审",
+    "hasBody": true
+  },
+  {
+    "module": "component_element_urge_review",
+    "operation": "get",
+    "method": "GET",
+    "path": "/component_element_urge_review/get",
+    "funcName": "Get",
+    "comment": "获取创意组件元素催审状态",
+    "hasBody": false
+  },
+  {
+    "module": "component_review_results",
+    "operation": "get",
+    "method": "GET",
+    "path": "/component_review_results/get",
+    "funcName": "Get",
+    "comment": "查询组件审核结果",
+    "hasBody": false
+  },
+  {
+    "module": "component_sharing",
+    "operation": "get",
+    "method": "GET",
+    "path": "/component_sharing/get",
+    "funcName": "Get",
+    "comment": "查询创意组件共享信息",
+    "hasBody": false
+  },
+  {
+    "module": "component_sharing",
+    "operation": "update",
+    "method": "POST",
+    "path": "/component_sharing/update",
+    "funcName": "Update",
+    "comment": "修改创意组件共享",
+    "hasBody": true
+  },
+  {
+    "module": "components",
+    "operation": "add",
+    "method": "POST",
+    "path": "/components/add",
+    "funcName": "Add",
+    "comment": "创建创意组件",
+    "hasBody": true
+  },
+  {
+    "module": "components",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/components/delete",
+    "funcName": "Delete",
+    "comment": "删除创意组件",
+    "hasBody": true
+  },
+  {
+    "module": "components",
+    "operation": "get",
+    "method": "GET",
+    "path": "/components/get",
+    "funcName": "Get",
+    "comment": "获取创意组件",
+    "hasBody": false
+  },
+  {
+    "module": "components_metadata",
+    "operation": "get",
+    "method": "GET",
+    "path": "/components_metadata/get",
+    "funcName": "Get",
+    "comment": "查询创意组件元数据",
+    "hasBody": false
+  },
+  {
+    "module": "conversion_link_asset_available",
+    "operation": "get",
+    "method": "GET",
+    "path": "/conversion_link_asset_available/get",
+    "funcName": "Get",
+    "comment": "获取可投放链路列表",
+    "hasBody": false
+  },
+  {
+    "module": "conversion_link_assets",
+    "operation": "add",
+    "method": "POST",
+    "path": "/conversion_link_assets/add",
+    "funcName": "Add",
+    "comment": "创建营销链路",
+    "hasBody": true
+  },
+  {
+    "module": "conversion_link_assets",
+    "operation": "get",
+    "method": "GET",
+    "path": "/conversion_link_assets/get",
+    "funcName": "Get",
+    "comment": "获取营销链路",
+    "hasBody": false
+  },
+  {
+    "module": "conversion_link_assets",
+    "operation": "update",
+    "method": "POST",
+    "path": "/conversion_link_assets/update",
+    "funcName": "Update",
+    "comment": "更新营销链路",
+    "hasBody": true
+  },
+  {
+    "module": "conversion_links",
+    "operation": "get",
+    "method": "GET",
+    "path": "/conversion_links/get",
+    "funcName": "Get",
+    "comment": "获取营销链路模板",
+    "hasBody": false
+  },
+  {
+    "module": "conversions",
+    "operation": "add",
+    "method": "POST",
+    "path": "/conversions/add",
+    "funcName": "Add",
+    "comment": "新增转化归因",
+    "hasBody": true
+  },
+  {
+    "module": "conversions",
+    "operation": "get",
+    "method": "GET",
+    "path": "/conversions/get",
+    "funcName": "Get",
+    "comment": "获取转化归因",
+    "hasBody": false
+  },
+  {
+    "module": "creative_recommend",
+    "operation": "get",
+    "method": "POST",
+    "path": "/creative_recommend/get",
+    "funcName": "Get",
+    "comment": "获取创意相关建议",
+    "hasBody": true
+  },
+  {
+    "module": "creative_template",
+    "operation": "get",
+    "method": "GET",
+    "path": "/creative_template/get",
+    "funcName": "Get",
+    "comment": "获取创意形式详情",
+    "hasBody": false
+  },
+  {
+    "module": "creative_template_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/creative_template_list/get",
+    "funcName": "Get",
+    "comment": "获取创意形式列表",
+    "hasBody": false
+  },
+  {
+    "module": "creative_template_previews",
+    "operation": "get",
+    "method": "POST",
+    "path": "/creative_template_previews/get",
+    "funcName": "Get",
+    "comment": "获取广告创意预览",
+    "hasBody": true
+  },
+  {
+    "module": "creativetools_text",
+    "operation": "get",
+    "method": "GET",
+    "path": "/creativetools_text/get",
+    "funcName": "Get",
+    "comment": "获取广告文案",
+    "hasBody": false
+  },
+  {
+    "module": "custom_audience_estimations",
+    "operation": "get",
+    "method": "GET",
+    "path": "/custom_audience_estimations/get",
+    "funcName": "Get",
+    "comment": "人群覆盖数预估",
+    "hasBody": false
+  },
+  {
+    "module": "custom_audience_files",
+    "operation": "add",
+    "method": "POST",
+    "path": "/custom_audience_files/add",
+    "funcName": "Add",
+    "comment": "上传客户人群数据文件",
+    "hasBody": true
+  },
+  {
+    "module": "custom_audience_files",
+    "operation": "get",
+    "method": "GET",
+    "path": "/custom_audience_files/get",
+    "funcName": "Get",
+    "comment": "获取客户人群数据文件",
+    "hasBody": false
+  },
+  {
+    "module": "daily_balance_report",
+    "operation": "get",
+    "method": "GET",
+    "path": "/daily_balance_report/get",
+    "funcName": "Get",
+    "comment": "获取资金账户日结明细（新，包含日终结余数据）",
+    "hasBody": false
+  },
+  {
+    "module": "data_source_dispatch",
+    "operation": "get",
+    "method": "GET",
+    "path": "/data_source_dispatch/get",
+    "funcName": "Get",
+    "comment": "数据源分发关系获取",
+    "hasBody": false
+  },
+  {
+    "module": "dynamic_ad_image_templates",
+    "operation": "get",
+    "method": "GET",
+    "path": "/dynamic_ad_image_templates/get",
+    "funcName": "Get",
+    "comment": "获取动态商品图片模板",
+    "hasBody": false
+  },
+  {
+    "module": "dynamic_ad_images",
+    "operation": "add",
+    "method": "POST",
+    "path": "/dynamic_ad_images/add",
+    "funcName": "Add",
+    "comment": "创建用于广告投放的动态广告图片",
+    "hasBody": true
+  },
+  {
+    "module": "dynamic_ad_images",
+    "operation": "get",
+    "method": "GET",
+    "path": "/dynamic_ad_images/get",
+    "funcName": "Get",
+    "comment": "获取动态广告图片信息",
+    "hasBody": false
+  },
+  {
+    "module": "dynamic_ad_video",
+    "operation": "add",
+    "method": "POST",
+    "path": "/dynamic_ad_video/add",
+    "funcName": "Add",
+    "comment": "创建用于广告投放的动态广告视频",
+    "hasBody": true
+  },
+  {
+    "module": "dynamic_ad_video",
+    "operation": "get",
+    "method": "GET",
+    "path": "/dynamic_ad_video/get",
+    "funcName": "Get",
+    "comment": "获取广告投放的动态广告视频",
+    "hasBody": false
+  },
+  {
+    "module": "dynamic_ad_video_templates",
+    "operation": "get",
+    "method": "GET",
+    "path": "/dynamic_ad_video_templates/get",
+    "funcName": "Get",
+    "comment": "获取动态商品视频模板",
+    "hasBody": false
+  },
+  {
+    "module": "dynamic_creative_previews",
+    "operation": "add",
+    "method": "POST",
+    "path": "/dynamic_creative_previews/add",
+    "funcName": "Add",
+    "comment": "3.0创意绑定在线预览",
+    "hasBody": true
+  },
+  {
+    "module": "dynamic_creative_review_results",
+    "operation": "get",
+    "method": "GET",
+    "path": "/dynamic_creative_review_results/get",
+    "funcName": "Get",
+    "comment": "查询动态创意审核结果",
+    "hasBody": false
+  },
+  {
+    "module": "ecommerce_order",
+    "operation": "get",
+    "method": "GET",
+    "path": "/ecommerce_order/get",
+    "funcName": "Get",
+    "comment": "获取订单",
+    "hasBody": false
+  },
+  {
+    "module": "ecommerce_order",
+    "operation": "update",
+    "method": "POST",
+    "path": "/ecommerce_order/update",
+    "funcName": "Update",
+    "comment": "更新订单",
+    "hasBody": true
+  },
+  {
+    "module": "element_appeal_quota",
+    "operation": "get",
+    "method": "GET",
+    "path": "/element_appeal_quota/get",
+    "funcName": "Get",
+    "comment": "获取元素申诉复审配额",
+    "hasBody": false
+  },
+  {
+    "module": "element_appeal_review",
+    "operation": "add",
+    "method": "POST",
+    "path": "/element_appeal_review/add",
+    "funcName": "Add",
+    "comment": "发起元素申诉复审",
+    "hasBody": true
+  },
+  {
+    "module": "element_appeal_review",
+    "operation": "get",
+    "method": "GET",
+    "path": "/element_appeal_review/get",
+    "funcName": "Get",
+    "comment": "获取元素申诉复审结果",
+    "hasBody": false
+  },
+  {
+    "module": "estimation",
+    "operation": "get",
+    "method": "POST",
+    "path": "/estimation/get",
+    "funcName": "Get",
+    "comment": "预估覆盖人数",
+    "hasBody": true
+  },
+  {
+    "module": "extend_package",
+    "operation": "add",
+    "method": "POST",
+    "path": "/extend_package/add",
+    "funcName": "Add",
+    "comment": "创建应用分包",
+    "hasBody": true
+  },
+  {
+    "module": "extend_package",
+    "operation": "get",
+    "method": "GET",
+    "path": "/extend_package/get",
+    "funcName": "Get",
+    "comment": "查询应用分包列表",
+    "hasBody": false
+  },
+  {
+    "module": "extend_package",
+    "operation": "update",
+    "method": "POST",
+    "path": "/extend_package/update",
+    "funcName": "Update",
+    "comment": "更新应用子包版本",
+    "hasBody": true
+  },
+  {
+    "module": "finder_ad_object_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/finder_ad_object_list/get",
+    "funcName": "Get",
+    "comment": "* @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().",
+    "hasBody": false
+  },
+  {
+    "module": "fund_statements_detailed",
+    "operation": "get",
+    "method": "GET",
+    "path": "/fund_statements_detailed/get",
+    "funcName": "Get",
+    "comment": "获取资金流水",
+    "hasBody": false
+  },
+  {
+    "module": "game_feature",
+    "operation": "add",
+    "method": "POST",
+    "path": "/game_feature/add",
+    "funcName": "Add",
+    "comment": "新增游戏App特征V5",
+    "hasBody": true
+  },
+  {
+    "module": "game_feature",
+    "operation": "get",
+    "method": "GET",
+    "path": "/game_feature/get",
+    "funcName": "Get",
+    "comment": "获取游戏App特征V5",
+    "hasBody": false
+  },
+  {
+    "module": "game_feature_tags",
+    "operation": "get",
+    "method": "GET",
+    "path": "/game_feature_tags/get",
+    "funcName": "Get",
+    "comment": "获取游戏特征标签",
+    "hasBody": false
+  },
+  {
+    "module": "game_feature_v6",
+    "operation": "add",
+    "method": "POST",
+    "path": "/game_feature_v6/add",
+    "funcName": "Add",
+    "comment": "新增游戏App特征V6",
+    "hasBody": true
+  },
+  {
+    "module": "game_feature_v6",
+    "operation": "get",
+    "method": "GET",
+    "path": "/game_feature_v6/get",
+    "funcName": "Get",
+    "comment": "获取游戏App特征V6",
+    "hasBody": false
+  },
+  {
+    "module": "get_wx_game_app_gift_pack",
+    "operation": "get",
+    "method": "POST",
+    "path": "/get_wx_game_app_gift_pack/get",
+    "funcName": "Get",
+    "comment": "获取游戏中心礼包",
+    "hasBody": true
+  },
+  {
+    "module": "illegal_complaint",
+    "operation": "add",
+    "method": "POST",
+    "path": "/illegal_complaint/add",
+    "funcName": "Add",
+    "comment": "新增广告主违规申述",
+    "hasBody": true
+  },
+  {
+    "module": "illegal_complaint",
+    "operation": "get",
+    "method": "POST",
+    "path": "/illegal_complaint/get",
+    "funcName": "Get",
+    "comment": "获取直客广告主违规申述列表",
+    "hasBody": true
+  },
+  {
+    "module": "image_processing",
+    "operation": "add",
+    "method": "POST",
+    "path": "/image_processing/add",
+    "funcName": "Add",
+    "comment": "进行图片处理",
+    "hasBody": true
+  },
+  {
+    "module": "joint_budget_rules",
+    "operation": "add",
+    "method": "POST",
+    "path": "/joint_budget_rules/add",
+    "funcName": "Add",
+    "comment": "创建联合预算规则",
+    "hasBody": true
+  },
+  {
+    "module": "joint_budget_rules",
+    "operation": "get",
+    "method": "GET",
+    "path": "/joint_budget_rules/get",
+    "funcName": "Get",
+    "comment": "获取联合预算",
+    "hasBody": false
+  },
+  {
+    "module": "joint_budget_rules",
+    "operation": "update",
+    "method": "POST",
+    "path": "/joint_budget_rules/update",
+    "funcName": "Update",
+    "comment": "更新联合预算规则",
+    "hasBody": true
+  },
+  {
+    "module": "keyword_recommend",
+    "operation": "get",
+    "method": "GET",
+    "path": "/keyword_recommend/get",
+    "funcName": "Get",
+    "comment": "获取关键词推荐结果",
+    "hasBody": false
+  },
+  {
+    "module": "labels",
+    "operation": "get",
+    "method": "GET",
+    "path": "/labels/get",
+    "funcName": "Get",
+    "comment": "标签广场标签获取",
+    "hasBody": false
+  },
+  {
+    "module": "landing_page_sell_strategy",
+    "operation": "add",
+    "method": "POST",
+    "path": "/landing_page_sell_strategy/add",
+    "funcName": "Add",
+    "comment": "短剧售卖策略-创建售卖策略",
+    "hasBody": true
+  },
+  {
+    "module": "landing_page_sell_strategy",
+    "operation": "get",
+    "method": "GET",
+    "path": "/landing_page_sell_strategy/get",
+    "funcName": "Get",
+    "comment": "短剧售卖策略-获取售卖策略列表",
+    "hasBody": false
+  },
+  {
+    "module": "leads_action_type_report",
+    "operation": "add",
+    "method": "POST",
+    "path": "/leads_action_type_report/add",
+    "funcName": "Add",
+    "comment": "线索上报DMP平台",
+    "hasBody": true
+  },
+  {
+    "module": "leads_call_record",
+    "operation": "get",
+    "method": "GET",
+    "path": "/leads_call_record/get",
+    "funcName": "Get",
+    "comment": "获取通话结果",
+    "hasBody": false
+  },
+  {
+    "module": "leads_call_records",
+    "operation": "get",
+    "method": "GET",
+    "path": "/leads_call_records/get",
+    "funcName": "Get",
+    "comment": "获取一个账号下的全部通话结果",
+    "hasBody": false
+  },
+  {
+    "module": "leads_call_virtual_number",
+    "operation": "get",
+    "method": "GET",
+    "path": "/leads_call_virtual_number/get",
+    "funcName": "Get",
+    "comment": "获取中间号",
+    "hasBody": false
+  },
+  {
+    "module": "leads_invalid_pay",
+    "operation": "get",
+    "method": "GET",
+    "path": "/leads_invalid_pay/get",
+    "funcName": "Get",
+    "comment": "获取无效赔付明细",
+    "hasBody": false
+  },
+  {
+    "module": "leads_status",
+    "operation": "update",
+    "method": "POST",
+    "path": "/leads_status/update",
+    "funcName": "Update",
+    "comment": "外部线索状态更新",
+    "hasBody": true
+  },
+  {
+    "module": "leads_voip_call",
+    "operation": "add",
+    "method": "POST",
+    "path": "/leads_voip_call/add",
+    "funcName": "Add",
+    "comment": "网络电话呼叫",
+    "hasBody": true
+  },
+  {
+    "module": "leads_voip_call_token",
+    "operation": "get",
+    "method": "GET",
+    "path": "/leads_voip_call_token/get",
+    "funcName": "Get",
+    "comment": "获取网络电话token",
+    "hasBody": false
+  },
+  {
+    "module": "live_room_component_status",
+    "operation": "update",
+    "method": "POST",
+    "path": "/live_room_component_status/update",
+    "funcName": "Update",
+    "comment": "更新直播间组件状态",
+    "hasBody": true
+  },
+  {
+    "module": "live_room_components",
+    "operation": "add",
+    "method": "POST",
+    "path": "/live_room_components/add",
+    "funcName": "Add",
+    "comment": "创建直播间组件",
+    "hasBody": true
+  },
+  {
+    "module": "live_room_components",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/live_room_components/delete",
+    "funcName": "Delete",
+    "comment": "删除直播间组件",
+    "hasBody": true
+  },
+  {
+    "module": "live_room_components",
+    "operation": "get",
+    "method": "GET",
+    "path": "/live_room_components/get",
+    "funcName": "Get",
+    "comment": "查询直播间组件信息",
+    "hasBody": false
+  },
+  {
+    "module": "live_room_components",
+    "operation": "update",
+    "method": "POST",
+    "path": "/live_room_components/update",
+    "funcName": "Update",
+    "comment": "更新直播间组件",
+    "hasBody": true
+  },
+  {
+    "module": "local_store_packages",
+    "operation": "add",
+    "method": "POST",
+    "path": "/local_store_packages/add",
+    "funcName": "Add",
+    "comment": "创建门店包",
+    "hasBody": true
+  },
+  {
+    "module": "local_store_packages",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/local_store_packages/delete",
+    "funcName": "Delete",
+    "comment": "删除门店包",
+    "hasBody": true
+  },
+  {
+    "module": "local_store_packages",
+    "operation": "get",
+    "method": "GET",
+    "path": "/local_store_packages/get",
+    "funcName": "Get",
+    "comment": "查询门店包信息",
+    "hasBody": false
+  },
+  {
+    "module": "local_store_packages",
+    "operation": "update",
+    "method": "POST",
+    "path": "/local_store_packages/update",
+    "funcName": "Update",
+    "comment": "更新门店包信息",
+    "hasBody": true
+  },
+  {
+    "module": "local_stores",
+    "operation": "add",
+    "method": "POST",
+    "path": "/local_stores/add",
+    "funcName": "Add",
+    "comment": "批量录入门店",
+    "hasBody": true
+  },
+  {
+    "module": "local_stores",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/local_stores/delete",
+    "funcName": "Delete",
+    "comment": "批量删除门店信息",
+    "hasBody": true
+  },
+  {
+    "module": "local_stores",
+    "operation": "get",
+    "method": "GET",
+    "path": "/local_stores/get",
+    "funcName": "Get",
+    "comment": "查询门店信息",
+    "hasBody": false
+  },
+  {
+    "module": "local_stores",
+    "operation": "update",
+    "method": "POST",
+    "path": "/local_stores/update",
+    "funcName": "Update",
+    "comment": "更新门店信息",
+    "hasBody": true
+  },
+  {
+    "module": "local_stores_address_parsing_result",
+    "operation": "get",
+    "method": "POST",
+    "path": "/local_stores_address_parsing_result/get",
+    "funcName": "Get",
+    "comment": "解析门店地址",
+    "hasBody": true
+  },
+  {
+    "module": "local_stores_categories",
+    "operation": "get",
+    "method": "GET",
+    "path": "/local_stores_categories/get",
+    "funcName": "Get",
+    "comment": "查询门店类目",
+    "hasBody": false
+  },
+  {
+    "module": "local_stores_search_info",
+    "operation": "get",
+    "method": "GET",
+    "path": "/local_stores_search_info/get",
+    "funcName": "Get",
+    "comment": "搜索门店",
+    "hasBody": false
+  },
+  {
+    "module": "local_stores_wxpay_merchants",
+    "operation": "get",
+    "method": "GET",
+    "path": "/local_stores_wxpay_merchants/get",
+    "funcName": "Get",
+    "comment": "查询微信支付商户号",
+    "hasBody": false
+  },
+  {
+    "module": "marketing_rules",
+    "operation": "get",
+    "method": "GET",
+    "path": "/marketing_rules/get",
+    "funcName": "Get",
+    "comment": "获取营销表达组合",
+    "hasBody": false
+  },
+  {
+    "module": "marketing_target_asset_categories",
+    "operation": "get",
+    "method": "GET",
+    "path": "/marketing_target_asset_categories/get",
+    "funcName": "Get",
+    "comment": "获取可用的推广内容资产类目",
+    "hasBody": false
+  },
+  {
+    "module": "marketing_target_asset_detail",
+    "operation": "get",
+    "method": "GET",
+    "path": "/marketing_target_asset_detail/get",
+    "funcName": "Get",
+    "comment": "获取推广内容资产详情",
+    "hasBody": false
+  },
+  {
+    "module": "marketing_target_asset_properties",
+    "operation": "get",
+    "method": "GET",
+    "path": "/marketing_target_asset_properties/get",
+    "funcName": "Get",
+    "comment": "获取可用的推广内容资产属性",
+    "hasBody": false
+  },
+  {
+    "module": "marketing_target_asset_property_values",
+    "operation": "get",
+    "method": "GET",
+    "path": "/marketing_target_asset_property_values/get",
+    "funcName": "Get",
+    "comment": "获取可用的推广内容资产属性值",
+    "hasBody": false
+  },
+  {
+    "module": "marketing_target_assets",
+    "operation": "add",
+    "method": "POST",
+    "path": "/marketing_target_assets/add",
+    "funcName": "Add",
+    "comment": "创建推广内容资产",
+    "hasBody": true
+  },
+  {
+    "module": "marketing_target_assets",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/marketing_target_assets/delete",
+    "funcName": "Delete",
+    "comment": "删除推广内容资产",
+    "hasBody": true
+  },
+  {
+    "module": "marketing_target_assets",
+    "operation": "get",
+    "method": "GET",
+    "path": "/marketing_target_assets/get",
+    "funcName": "Get",
+    "comment": "获取可投放推广内容资产列表",
+    "hasBody": false
+  },
+  {
+    "module": "marketing_target_assets",
+    "operation": "update",
+    "method": "POST",
+    "path": "/marketing_target_assets/update",
+    "funcName": "Update",
+    "comment": "更新推广内容资产",
+    "hasBody": true
+  },
+  {
+    "module": "marketing_target_types",
+    "operation": "get",
+    "method": "GET",
+    "path": "/marketing_target_types/get",
+    "funcName": "Get",
+    "comment": "获取可投放推广内容资产类型名称",
+    "hasBody": false
+  },
+  {
+    "module": "material_ai_annotation",
+    "operation": "add",
+    "method": "POST",
+    "path": "/material_ai_annotation/add",
+    "funcName": "Add",
+    "comment": "素材标注",
+    "hasBody": true
+  },
+  {
+    "module": "material_async_tasks",
+    "operation": "add",
+    "method": "POST",
+    "path": "/material_async_tasks/add",
+    "funcName": "Add",
+    "comment": "提交异步任务",
+    "hasBody": true
+  },
+  {
+    "module": "material_async_tasks",
+    "operation": "get",
+    "method": "GET",
+    "path": "/material_async_tasks/get",
+    "funcName": "Get",
+    "comment": "获取异步任务",
+    "hasBody": false
+  },
+  {
+    "module": "material_dcaset",
+    "operation": "add",
+    "method": "POST",
+    "path": "/material_dcaset/add",
+    "funcName": "Add",
+    "comment": "素材DCA集合绑定新增",
+    "hasBody": true
+  },
+  {
+    "module": "material_dcatag",
+    "operation": "add",
+    "method": "POST",
+    "path": "/material_dcatag/add",
+    "funcName": "Add",
+    "comment": "素材DCA标签绑定新增",
+    "hasBody": true
+  },
+  {
+    "module": "material_dcatag",
+    "operation": "get",
+    "method": "GET",
+    "path": "/material_dcatag/get",
+    "funcName": "Get",
+    "comment": "素材DCA标签绑定查询",
+    "hasBody": false
+  },
+  {
+    "module": "material_labels",
+    "operation": "add",
+    "method": "POST",
+    "path": "/material_labels/add",
+    "funcName": "Add",
+    "comment": "创建素材标签",
+    "hasBody": true
+  },
+  {
+    "module": "material_labels",
+    "operation": "bind",
+    "method": "POST",
+    "path": "/material_labels/bind",
+    "funcName": "Bind",
+    "comment": "绑定标签素材关联关系",
+    "hasBody": true
+  },
+  {
+    "module": "material_labels",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/material_labels/delete",
+    "funcName": "Delete",
+    "comment": "删除素材标签",
+    "hasBody": true
+  },
+  {
+    "module": "material_labels",
+    "operation": "get",
+    "method": "GET",
+    "path": "/material_labels/get",
+    "funcName": "Get",
+    "comment": "获取素材标签列表",
+    "hasBody": false
+  },
+  {
+    "module": "material_labels",
+    "operation": "update",
+    "method": "POST",
+    "path": "/material_labels/update",
+    "funcName": "Update",
+    "comment": "更新素材标签",
+    "hasBody": true
+  },
+  {
+    "module": "merge_fund_type_daily_balance_report",
+    "operation": "get",
+    "method": "GET",
+    "path": "/merge_fund_type_daily_balance_report/get",
+    "funcName": "Get",
+    "comment": "获取资金合并类型资金账户日结明细",
+    "hasBody": false
+  },
+  {
+    "module": "merge_fund_type_fund_statements_detailed",
+    "operation": "get",
+    "method": "GET",
+    "path": "/merge_fund_type_fund_statements_detailed/get",
+    "funcName": "Get",
+    "comment": "获取资金合并类型资金流水",
+    "hasBody": false
+  },
+  {
+    "module": "merge_fund_type_funds",
+    "operation": "get",
+    "method": "GET",
+    "path": "/merge_fund_type_funds/get",
+    "funcName": "Get",
+    "comment": "获取资金合并类型资金账户信息",
+    "hasBody": false
+  },
+  {
+    "module": "merge_fund_type_subcustomer_transfer",
+    "operation": "add",
+    "method": "POST",
+    "path": "/merge_fund_type_subcustomer_transfer/add",
+    "funcName": "Add",
+    "comment": "资金合并类型同商务管家子客间转账",
+    "hasBody": true
+  },
+  {
+    "module": "muse_ai_material",
+    "operation": "add",
+    "method": "POST",
+    "path": "/muse_ai_material/add",
+    "funcName": "Add",
+    "comment": "选择并保存妙思AI素材接口",
+    "hasBody": true
+  },
+  {
+    "module": "muse_ai_task",
+    "operation": "add",
+    "method": "POST",
+    "path": "/muse_ai_task/add",
+    "funcName": "Add",
+    "comment": "创建妙思任务接口",
+    "hasBody": true
+  },
+  {
+    "module": "muse_ai_task",
+    "operation": "get",
+    "method": "GET",
+    "path": "/muse_ai_task/get",
+    "funcName": "Get",
+    "comment": "获取妙思任务结果接口",
+    "hasBody": false
+  },
+  {
+    "module": "muse_ai_ugc",
+    "operation": "add",
+    "method": "POST",
+    "path": "/muse_ai_ugc/add",
+    "funcName": "Add",
+    "comment": "二次编辑素材回传接口",
+    "hasBody": true
+  },
+  {
+    "module": "muse_audios",
+    "operation": "get",
+    "method": "POST",
+    "path": "/muse_audios/get",
+    "funcName": "Get",
+    "comment": "获取妙思版权音频列表",
+    "hasBody": true
+  },
+  {
+    "module": "muse_derive_switch_settings",
+    "operation": "get",
+    "method": "GET",
+    "path": "/muse_derive_switch_settings/get",
+    "funcName": "Get",
+    "comment": "创意增强配置",
+    "hasBody": false
+  },
+  {
+    "module": "negativewords",
+    "operation": "add",
+    "method": "POST",
+    "path": "/negativewords/add",
+    "funcName": "Add",
+    "comment": "新增否定词，可在广告、创意上新增",
+    "hasBody": true
+  },
+  {
+    "module": "negativewords",
+    "operation": "get",
+    "method": "GET",
+    "path": "/negativewords/get",
+    "funcName": "Get",
+    "comment": "查询否定词，可查询广告、创意的否词",
+    "hasBody": false
+  },
+  {
+    "module": "negativewords",
+    "operation": "update",
+    "method": "POST",
+    "path": "/negativewords/update",
+    "funcName": "Update",
+    "comment": "更新否定词，可在广告、创意上更新",
+    "hasBody": true
+  },
+  {
+    "module": "oauth",
+    "operation": "authorize",
+    "method": "GET",
+    "path": "/oauth/authorize",
+    "funcName": "Authorize",
+    "comment": "获取Authorization Code",
+    "hasBody": false
+  },
+  {
+    "module": "oauth",
+    "operation": "refreshtoken",
+    "method": "GET",
+    "path": "/oauth/refresh_token",
+    "funcName": "RefreshToken",
+    "comment": "刷新 Refresh Token",
+    "hasBody": false
+  },
+  {
+    "module": "object_comment_flag",
+    "operation": "update",
+    "method": "POST",
+    "path": "/object_comment_flag/update",
+    "funcName": "Update",
+    "comment": "设置视频号评论管理",
+    "hasBody": true
+  },
+  {
+    "module": "official_landing_page",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/official_landing_page/delete",
+    "funcName": "Delete",
+    "comment": "官方落地页-删除落地页",
+    "hasBody": true
+  },
+  {
+    "module": "official_landing_page_component",
+    "operation": "add",
+    "method": "POST",
+    "path": "/official_landing_page_component/add",
+    "funcName": "Add",
+    "comment": "官方落地页-基于组件创建",
+    "hasBody": true
+  },
+  {
+    "module": "official_landing_page_detail",
+    "operation": "get",
+    "method": "GET",
+    "path": "/official_landing_page_detail/get",
+    "funcName": "Get",
+    "comment": "官方落地页-获取落地页详情",
+    "hasBody": false
+  },
+  {
+    "module": "official_landing_page_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/official_landing_page_list/get",
+    "funcName": "Get",
+    "comment": "官方落地页-获取落地页列表",
+    "hasBody": false
+  },
+  {
+    "module": "official_landing_page_submit",
+    "operation": "update",
+    "method": "POST",
+    "path": "/official_landing_page_submit/update",
+    "funcName": "Update",
+    "comment": "官方落地页-送审落地页",
+    "hasBody": true
+  },
+  {
+    "module": "online_preview_qrcode",
+    "operation": "get",
+    "method": "GET",
+    "path": "/online_preview_qrcode/get",
+    "funcName": "Get",
+    "comment": "获取在线预览二维码",
+    "hasBody": false
+  },
+  {
+    "module": "operation_log_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/operation_log_list/get",
+    "funcName": "Get",
+    "comment": "获取操作日志列表",
+    "hasBody": false
+  },
+  {
+    "module": "optimization_goal_permissions",
+    "operation": "get",
+    "method": "GET",
+    "path": "/optimization_goal_permissions/get",
+    "funcName": "Get",
+    "comment": "查询优化目标权限",
+    "hasBody": false
+  },
+  {
+    "module": "organization_account_relation",
+    "operation": "get",
+    "method": "GET",
+    "path": "/organization_account_relation/get",
+    "funcName": "Get",
+    "comment": "查询组织下广告账户信息",
+    "hasBody": false
+  },
+  {
+    "module": "pages",
+    "operation": "get",
+    "method": "GET",
+    "path": "/pages/get",
+    "funcName": "Get",
+    "comment": "获取落地页列表",
+    "hasBody": false
+  },
+  {
+    "module": "product_catalogs",
+    "operation": "add",
+    "method": "POST",
+    "path": "/product_catalogs/add",
+    "funcName": "Add",
+    "comment": "创建商品库",
+    "hasBody": true
+  },
+  {
+    "module": "product_catalogs",
+    "operation": "get",
+    "method": "GET",
+    "path": "/product_catalogs/get",
+    "funcName": "Get",
+    "comment": "获取商品库",
+    "hasBody": false
+  },
+  {
+    "module": "product_categories_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/product_categories_list/get",
+    "funcName": "Get",
+    "comment": "获取商品类目",
+    "hasBody": false
+  },
+  {
+    "module": "product_items",
+    "operation": "add",
+    "method": "POST",
+    "path": "/product_items/add",
+    "funcName": "Add",
+    "comment": "添加商品",
+    "hasBody": true
+  },
+  {
+    "module": "product_items",
+    "operation": "batchupdate",
+    "method": "POST",
+    "path": "/product_items/batch_update",
+    "funcName": "BatchUpdate",
+    "comment": "批量更新商品信息",
+    "hasBody": true
+  },
+  {
+    "module": "product_items",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/product_items/delete",
+    "funcName": "Delete",
+    "comment": "删除商品信息",
+    "hasBody": true
+  },
+  {
+    "module": "product_items",
+    "operation": "get",
+    "method": "GET",
+    "path": "/product_items/get",
+    "funcName": "Get",
+    "comment": "获取商品",
+    "hasBody": false
+  },
+  {
+    "module": "product_items",
+    "operation": "update",
+    "method": "POST",
+    "path": "/product_items/update",
+    "funcName": "Update",
+    "comment": "更新商品信息",
+    "hasBody": true
+  },
+  {
+    "module": "product_items_detail",
+    "operation": "get",
+    "method": "GET",
+    "path": "/product_items_detail/get",
+    "funcName": "Get",
+    "comment": "获取商品详情",
+    "hasBody": false
+  },
+  {
+    "module": "product_items_verticals",
+    "operation": "get",
+    "method": "GET",
+    "path": "/product_items_verticals/get",
+    "funcName": "Get",
+    "comment": "行业列表",
+    "hasBody": false
+  },
+  {
+    "module": "product_series",
+    "operation": "add",
+    "method": "POST",
+    "path": "/product_series/add",
+    "funcName": "Add",
+    "comment": "创建商品系列",
+    "hasBody": true
+  },
+  {
+    "module": "product_series",
+    "operation": "get",
+    "method": "GET",
+    "path": "/product_series/get",
+    "funcName": "Get",
+    "comment": "获取商品系列",
+    "hasBody": false
+  },
+  {
+    "module": "products_system_status",
+    "operation": "get",
+    "method": "GET",
+    "path": "/products_system_status/get",
+    "funcName": "Get",
+    "comment": "获取审核失败的商品",
+    "hasBody": false
+  },
+  {
+    "module": "profiles",
+    "operation": "add",
+    "method": "POST",
+    "path": "/profiles/add",
+    "funcName": "Add",
+    "comment": "创建朋友圈头像昵称跳转页",
+    "hasBody": true
+  },
+  {
+    "module": "profiles",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/profiles/delete",
+    "funcName": "Delete",
+    "comment": "删除朋友圈头像昵称跳转页",
+    "hasBody": true
+  },
+  {
+    "module": "profiles",
+    "operation": "get",
+    "method": "GET",
+    "path": "/profiles/get",
+    "funcName": "Get",
+    "comment": "获取朋友圈头像昵称跳转页",
+    "hasBody": false
+  },
+  {
+    "module": "programmed",
+    "operation": "get",
+    "method": "POST",
+    "path": "/programmed/get",
+    "funcName": "Get",
+    "comment": "获取模板预览接口",
+    "hasBody": true
+  },
+  {
+    "module": "programmed_commponent_preview",
+    "operation": "add",
+    "method": "POST",
+    "path": "/programmed_commponent_preview/add",
+    "funcName": "Add",
+    "comment": "组件化创意衍生预览创建接口",
+    "hasBody": true
+  },
+  {
+    "module": "programmed_commponent_preview",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/programmed_commponent_preview/delete",
+    "funcName": "Delete",
+    "comment": "组件化创意衍生预览删除接口",
+    "hasBody": true
+  },
+  {
+    "module": "programmed_commponent_preview",
+    "operation": "get",
+    "method": "GET",
+    "path": "/programmed_commponent_preview/get",
+    "funcName": "Get",
+    "comment": "组件化创意衍生预览查询接口",
+    "hasBody": false
+  },
+  {
+    "module": "programmed_commponent_preview",
+    "operation": "update",
+    "method": "POST",
+    "path": "/programmed_commponent_preview/update",
+    "funcName": "Update",
+    "comment": "组件化创意衍生预览更新接口",
+    "hasBody": true
+  },
+  {
+    "module": "programmed_commponent_preview_template",
+    "operation": "update",
+    "method": "POST",
+    "path": "/programmed_commponent_preview_template/update",
+    "funcName": "Update",
+    "comment": "组件化创意衍生预览模版替换接口",
+    "hasBody": true
+  },
+  {
+    "module": "programmed_commponent_result",
+    "operation": "get",
+    "method": "GET",
+    "path": "/programmed_commponent_result/get",
+    "funcName": "Get",
+    "comment": "组件化创意衍生成品查询接口",
+    "hasBody": false
+  },
+  {
+    "module": "programmed_material_mappings",
+    "operation": "get",
+    "method": "GET",
+    "path": "/programmed_material_mappings/get",
+    "funcName": "Get",
+    "comment": "获取衍生素材映射关系接口",
+    "hasBody": false
+  },
+  {
+    "module": "programmed_template",
+    "operation": "get",
+    "method": "POST",
+    "path": "/programmed_template/get",
+    "funcName": "Get",
+    "comment": "获取模板列表接口",
+    "hasBody": true
+  },
+  {
+    "module": "punish_detail",
+    "operation": "get",
+    "method": "POST",
+    "path": "/punish_detail/get",
+    "funcName": "Get",
+    "comment": "获取计量处罚明细",
+    "hasBody": true
+  },
+  {
+    "module": "punish_metrics",
+    "operation": "get",
+    "method": "POST",
+    "path": "/punish_metrics/get",
+    "funcName": "Get",
+    "comment": "获取处罚指标数据",
+    "hasBody": true
+  },
+  {
+    "module": "punishment_config",
+    "operation": "get",
+    "method": "GET",
+    "path": "/punishment_config/get",
+    "funcName": "Get",
+    "comment": "获取处罚系统配置",
+    "hasBody": false
+  },
+  {
+    "module": "punishment_query",
+    "operation": "get",
+    "method": "POST",
+    "path": "/punishment_query/get",
+    "funcName": "Get",
+    "comment": "获取违规处罚列表",
+    "hasBody": true
+  },
+  {
+    "module": "qualification_images",
+    "operation": "add",
+    "method": "POST",
+    "path": "/qualification_images/add",
+    "funcName": "Add",
+    "comment": "* @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().",
+    "hasBody": true
+  },
+  {
+    "module": "qualification_images",
+    "operation": "get",
+    "method": "GET",
+    "path": "/qualification_images/get",
+    "funcName": "Get",
+    "comment": "* @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().",
+    "hasBody": false
+  },
+  {
+    "module": "qualification_structure",
+    "operation": "get",
+    "method": "GET",
+    "path": "/qualification_structure/get",
+    "funcName": "Get",
+    "comment": "获取广告主资质结构",
+    "hasBody": false
+  },
+  {
+    "module": "qualifications",
+    "operation": "add",
+    "method": "POST",
+    "path": "/qualifications/add",
+    "funcName": "Add",
+    "comment": "创建广告主资质",
+    "hasBody": true
+  },
+  {
+    "module": "qualifications",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/qualifications/delete",
+    "funcName": "Delete",
+    "comment": "删除广告主资质",
+    "hasBody": true
+  },
+  {
+    "module": "qualifications",
+    "operation": "get",
+    "method": "GET",
+    "path": "/qualifications/get",
+    "funcName": "Get",
+    "comment": "获取广告主资质",
+    "hasBody": false
+  },
+  {
+    "module": "qualifications",
+    "operation": "update",
+    "method": "POST",
+    "path": "/qualifications/update",
+    "funcName": "Update",
+    "comment": "更新广告主资质",
+    "hasBody": true
+  },
+  {
+    "module": "realtime_cost",
+    "operation": "get",
+    "method": "GET",
+    "path": "/realtime_cost/get",
+    "funcName": "Get",
+    "comment": "获取实时消耗",
+    "hasBody": false
+  },
+  {
+    "module": "review_element_prereview_results",
+    "operation": "get",
+    "method": "POST",
+    "path": "/review_element_prereview_results/get",
+    "funcName": "Get",
+    "comment": "查询元素的预审结果",
+    "hasBody": true
+  },
+  {
+    "module": "rta_info",
+    "operation": "get",
+    "method": "POST",
+    "path": "/rta_info/get",
+    "funcName": "Get",
+    "comment": "基本信息查询",
+    "hasBody": true
+  },
+  {
+    "module": "rtaexp",
+    "operation": "get",
+    "method": "POST",
+    "path": "/rtaexp/get",
+    "funcName": "Get",
+    "comment": "获取实验信息",
+    "hasBody": true
+  },
+  {
+    "module": "rtaexp_data_roi",
+    "operation": "get",
+    "method": "POST",
+    "path": "/rtaexp_data_roi/get",
+    "funcName": "Get",
+    "comment": "实验数据查询",
+    "hasBody": true
+  },
+  {
+    "module": "rtaexp_dsp_tag_data",
+    "operation": "get",
+    "method": "POST",
+    "path": "/rtaexp_dsp_tag_data/get",
+    "funcName": "Get",
+    "comment": "dsp_tag数据查询",
+    "hasBody": true
+  },
+  {
+    "module": "rtatarget",
+    "operation": "add",
+    "method": "POST",
+    "path": "/rtatarget/add",
+    "funcName": "Add",
+    "comment": "新增RTA策略",
+    "hasBody": true
+  },
+  {
+    "module": "rtatarget",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/rtatarget/delete",
+    "funcName": "Delete",
+    "comment": "删除RTA策略",
+    "hasBody": true
+  },
+  {
+    "module": "rtatarget",
+    "operation": "get",
+    "method": "POST",
+    "path": "/rtatarget/get",
+    "funcName": "Get",
+    "comment": "获取RTA策略",
+    "hasBody": true
+  },
+  {
+    "module": "rtatarget_bind",
+    "operation": "add",
+    "method": "POST",
+    "path": "/rtatarget_bind/add",
+    "funcName": "Add",
+    "comment": "新增策略绑定",
+    "hasBody": true
+  },
+  {
+    "module": "rtatarget_bind",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/rtatarget_bind/delete",
+    "funcName": "Delete",
+    "comment": "解除策略绑定",
+    "hasBody": true
+  },
+  {
+    "module": "rtatarget_bind",
+    "operation": "get",
+    "method": "POST",
+    "path": "/rtatarget_bind/get",
+    "funcName": "Get",
+    "comment": "查询已绑定ID列表",
+    "hasBody": true
+  },
+  {
+    "module": "scene_spec_tags",
+    "operation": "get",
+    "method": "GET",
+    "path": "/scene_spec_tags/get",
+    "funcName": "Get",
+    "comment": "获取场景定向标签",
+    "hasBody": false
+  },
+  {
+    "module": "search_adgroups",
+    "operation": "add",
+    "method": "POST",
+    "path": "/search_adgroups/add",
+    "funcName": "Add",
+    "comment": "创建搜索广告",
+    "hasBody": true
+  },
+  {
+    "module": "search_adgroups",
+    "operation": "update",
+    "method": "POST",
+    "path": "/search_adgroups/update",
+    "funcName": "Update",
+    "comment": "更新搜索广告",
+    "hasBody": true
+  },
+  {
+    "module": "search_dynamic_creatives",
+    "operation": "add",
+    "method": "POST",
+    "path": "/search_dynamic_creatives/add",
+    "funcName": "Add",
+    "comment": "创建搜索动态创意",
+    "hasBody": true
+  },
+  {
+    "module": "search_dynamic_creatives",
+    "operation": "update",
+    "method": "POST",
+    "path": "/search_dynamic_creatives/update",
+    "funcName": "Update",
+    "comment": "更新搜索创意",
+    "hasBody": true
+  },
+  {
+    "module": "subcustomer_transfer",
+    "operation": "add",
+    "method": "POST",
+    "path": "/subcustomer_transfer/add",
+    "funcName": "Add",
+    "comment": "同商务管家子客间转账",
+    "hasBody": true
+  },
+  {
+    "module": "subsidy_account_bind",
+    "operation": "add",
+    "method": "POST",
+    "path": "/subsidy_account_bind/add",
+    "funcName": "Add",
+    "comment": "补贴账号绑定或解绑广告账户",
+    "hasBody": true
+  },
+  {
+    "module": "subsidy_bound_account_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/subsidy_bound_account_list/get",
+    "funcName": "Get",
+    "comment": "获取补贴账号关联的广告主账号列表",
+    "hasBody": false
+  },
+  {
+    "module": "targeting_tag_reports",
+    "operation": "get",
+    "method": "GET",
+    "path": "/targeting_tag_reports/get",
+    "funcName": "Get",
+    "comment": "获取定向标签报表",
+    "hasBody": false
+  },
+  {
+    "module": "targeting_tags",
+    "operation": "get",
+    "method": "GET",
+    "path": "/targeting_tags/get",
+    "funcName": "Get",
+    "comment": "获取定向标签",
+    "hasBody": false
+  },
+  {
+    "module": "targeting_tags_uv",
+    "operation": "get",
+    "method": "GET",
+    "path": "/targeting_tags_uv/get",
+    "funcName": "Get",
+    "comment": "获取行为/兴趣/意向标签覆盖人群数",
+    "hasBody": false
+  },
+  {
+    "module": "union_position_packages",
+    "operation": "add",
+    "method": "POST",
+    "path": "/union_position_packages/add",
+    "funcName": "Add",
+    "comment": "联盟流量包模块",
+    "hasBody": true
+  },
+  {
+    "module": "union_position_packages",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/union_position_packages/delete",
+    "funcName": "Delete",
+    "comment": "联盟流量包删除接口",
+    "hasBody": true
+  },
+  {
+    "module": "union_position_packages",
+    "operation": "get",
+    "method": "GET",
+    "path": "/union_position_packages/get",
+    "funcName": "Get",
+    "comment": "联盟流量包获取接口",
+    "hasBody": false
+  },
+  {
+    "module": "union_position_packages",
+    "operation": "update",
+    "method": "POST",
+    "path": "/union_position_packages/update",
+    "funcName": "Update",
+    "comment": "联盟流量包模块",
+    "hasBody": true
+  },
+  {
+    "module": "user_action_set_reports",
+    "operation": "get",
+    "method": "GET",
+    "path": "/user_action_set_reports/get",
+    "funcName": "Get",
+    "comment": "获取用户行为数据源报表",
+    "hasBody": false
+  },
+  {
+    "module": "user_action_sets",
+    "operation": "add",
+    "method": "POST",
+    "path": "/user_action_sets/add",
+    "funcName": "Add",
+    "comment": "创建用户行为数据源",
+    "hasBody": true
+  },
+  {
+    "module": "user_action_sets",
+    "operation": "get",
+    "method": "GET",
+    "path": "/user_action_sets/get",
+    "funcName": "Get",
+    "comment": "获取用户行为数据源",
+    "hasBody": false
+  },
+  {
+    "module": "user_actions",
+    "operation": "add",
+    "method": "POST",
+    "path": "/user_actions/add",
+    "funcName": "Add",
+    "comment": "上传用户行为数据",
+    "hasBody": true
+  },
+  {
+    "module": "user_organization_authentication",
+    "operation": "get",
+    "method": "GET",
+    "path": "/user_organization_authentication/get",
+    "funcName": "Get",
+    "comment": "查询用户组织认证",
+    "hasBody": false
+  },
+  {
+    "module": "video_channel_dealer_data",
+    "operation": "get",
+    "method": "POST",
+    "path": "/video_channel_dealer_data/get",
+    "funcName": "Get",
+    "comment": "获取经销商聚合数据",
+    "hasBody": true
+  },
+  {
+    "module": "video_channel_fans_data",
+    "operation": "get",
+    "method": "POST",
+    "path": "/video_channel_fans_data/get",
+    "funcName": "Get",
+    "comment": "获取粉丝数据",
+    "hasBody": true
+  },
+  {
+    "module": "video_channel_leads_data",
+    "operation": "get",
+    "method": "POST",
+    "path": "/video_channel_leads_data/get",
+    "funcName": "Get",
+    "comment": "获取线索数据",
+    "hasBody": true
+  },
+  {
+    "module": "video_channel_live_data",
+    "operation": "get",
+    "method": "POST",
+    "path": "/video_channel_live_data/get",
+    "funcName": "Get",
+    "comment": "获取直播数据",
+    "hasBody": true
+  },
+  {
+    "module": "videos",
+    "operation": "add",
+    "method": "POST",
+    "path": "/videos/add",
+    "funcName": "Add",
+    "comment": "添加视频文件",
+    "hasBody": true
+  },
+  {
+    "module": "wallet",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wallet/get",
+    "funcName": "Get",
+    "comment": "获取钱包信息",
+    "hasBody": false
+  },
+  {
+    "module": "wallet_basic_info",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wallet_basic_info/get",
+    "funcName": "Get",
+    "comment": "通过钱包id去查询共享钱包基础信息",
+    "hasBody": false
+  },
+  {
+    "module": "wallet_bind_advertiser",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wallet_bind_advertiser/add",
+    "funcName": "Add",
+    "comment": "共享钱包绑定或解绑广告账户",
+    "hasBody": true
+  },
+  {
+    "module": "wallet_create",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wallet_create/add",
+    "funcName": "Add",
+    "comment": "新建共享钱包",
+    "hasBody": true
+  },
+  {
+    "module": "wallet_edit",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wallet_edit/add",
+    "funcName": "Add",
+    "comment": "编辑共享钱包基础信息",
+    "hasBody": true
+  },
+  {
+    "module": "wallet_get_binding_advertiser",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wallet_get_binding_advertiser/get",
+    "funcName": "Get",
+    "comment": "查询单个共享钱包下的关联账户信息",
+    "hasBody": false
+  },
+  {
+    "module": "wallet_invoice",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wallet_invoice/get",
+    "funcName": "Get",
+    "comment": "共享钱包流水相关信息查询",
+    "hasBody": false
+  },
+  {
+    "module": "wallet_transfer",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wallet_transfer/add",
+    "funcName": "Add",
+    "comment": "发起代理商与钱包之间转账",
+    "hasBody": true
+  },
+  {
+    "module": "watermarks",
+    "operation": "add",
+    "method": "POST",
+    "path": "/watermarks/add",
+    "funcName": "Add",
+    "comment": "批量添加警示语",
+    "hasBody": true
+  },
+  {
+    "module": "watermarks",
+    "operation": "get",
+    "method": "GET",
+    "path": "/watermarks/get",
+    "funcName": "Get",
+    "comment": "查询警示语添加记录",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_channels_accounts",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_channels_accounts/get",
+    "funcName": "Get",
+    "comment": "获取视频号列表",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_channels_ad_account",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wechat_channels_ad_account/add",
+    "funcName": "Add",
+    "comment": "视频号开户",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_channels_ad_account",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/wechat_channels_ad_account/delete",
+    "funcName": "Delete",
+    "comment": "删除开户记录",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_channels_ad_account",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_channels_ad_account/get",
+    "funcName": "Get",
+    "comment": "查询视频号开户记录",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_channels_ad_account",
+    "operation": "update",
+    "method": "POST",
+    "path": "/wechat_channels_ad_account/update",
+    "funcName": "Update",
+    "comment": "视频号开户修改",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_channels_ad_account_certification_file",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wechat_channels_ad_account_certification_file/add",
+    "funcName": "Add",
+    "comment": "视频号开户资质上传",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_channels_ad_account_validation",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_channels_ad_account_validation/get",
+    "funcName": "Get",
+    "comment": "视频号一键开户校验",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_channels_ad_account_wechat_binding",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wechat_channels_ad_account_wechat_binding/add",
+    "funcName": "Add",
+    "comment": "视频号开户绑定微信号",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_channels_ad_account_wechat_binding",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_channels_ad_account_wechat_binding/get",
+    "funcName": "Get",
+    "comment": "视频号开户绑定微信状态查询",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_channels_authorization",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wechat_channels_authorization/add",
+    "funcName": "Add",
+    "comment": "创建视频号授权",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_channels_authorization",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/wechat_channels_authorization/delete",
+    "funcName": "Delete",
+    "comment": "删除视频号授权",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_channels_authorization",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_channels_authorization/get",
+    "funcName": "Get",
+    "comment": "获取视频号授权记录列表",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_channels_authorization",
+    "operation": "update",
+    "method": "POST",
+    "path": "/wechat_channels_authorization/update",
+    "funcName": "Update",
+    "comment": "更新视频号授权",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_official_accounts",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_official_accounts/get",
+    "funcName": "Get",
+    "comment": "获取公众号列表",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_pages",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wechat_pages/add",
+    "funcName": "Add",
+    "comment": "基于模板创建微信原生页",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_pages",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/wechat_pages/delete",
+    "funcName": "Delete",
+    "comment": "删除微信落地页",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_pages",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_pages/get",
+    "funcName": "Get",
+    "comment": "获取微信落地页列表",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_pages_csgroup_status",
+    "operation": "update",
+    "method": "POST",
+    "path": "/wechat_pages_csgroup_status/update",
+    "funcName": "Update",
+    "comment": "更新企业微信组件客服状态",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_pages_csgroup_user",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_pages_csgroup_user/get",
+    "funcName": "Get",
+    "comment": "获取企业微信组件客服列表",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_pages_csgrouplist",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wechat_pages_csgrouplist/add",
+    "funcName": "Add",
+    "comment": "增加企业微信组件客服组",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_pages_csgrouplist",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_pages_csgrouplist/get",
+    "funcName": "Get",
+    "comment": "获取企业微信客服组列表",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_pages_csgrouplist",
+    "operation": "update",
+    "method": "POST",
+    "path": "/wechat_pages_csgrouplist/update",
+    "funcName": "Update",
+    "comment": "更新企业微信组件客服组",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_pages_custom",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wechat_pages_custom/add",
+    "funcName": "Add",
+    "comment": "基于组件创建微信原生页",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_pages_grantinfo",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_pages_grantinfo/get",
+    "funcName": "Get",
+    "comment": "获取原生页授权方信息",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_shop",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_shop/get",
+    "funcName": "Get",
+    "comment": "查询微信小店信息",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_shop_authorization",
+    "operation": "add",
+    "method": "POST",
+    "path": "/wechat_shop_authorization/add",
+    "funcName": "Add",
+    "comment": "创建微信小店授权",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_shop_authorization",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_shop_authorization/get",
+    "funcName": "Get",
+    "comment": "获取微信小店授权记录列表",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_shop_authorization_status",
+    "operation": "update",
+    "method": "POST",
+    "path": "/wechat_shop_authorization_status/update",
+    "funcName": "Update",
+    "comment": "微信小店授权状态更新",
+    "hasBody": true
+  },
+  {
+    "module": "wechat_shop_authorization_validation",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_shop_authorization_validation/get",
+    "funcName": "Get",
+    "comment": "微信小店授权校验",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_store_catalogs",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_store_catalogs/get",
+    "funcName": "Get",
+    "comment": "获取微信小店商品库",
+    "hasBody": false
+  },
+  {
+    "module": "wechat_store_product_items",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wechat_store_product_items/get",
+    "funcName": "Get",
+    "comment": "获取微信小店商品",
+    "hasBody": false
+  },
+  {
+    "module": "wildcards",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wildcards/get",
+    "funcName": "Get",
+    "comment": "获取落地页通配符",
+    "hasBody": false
+  },
+  {
+    "module": "wx_game_playable_page",
+    "operation": "get",
+    "method": "GET",
+    "path": "/wx_game_playable_page/get",
+    "funcName": "Get",
+    "comment": "获取微信小游戏试玩页",
+    "hasBody": false
+  },
+  {
+    "module": "xijing_complex_template",
+    "operation": "get",
+    "method": "GET",
+    "path": "/xijing_complex_template/get",
+    "funcName": "Get",
+    "comment": "获取蹊径落地页互动模板配置",
+    "hasBody": false
+  },
+  {
+    "module": "xijing_page",
+    "operation": "add",
+    "method": "POST",
+    "path": "/xijing_page/add",
+    "funcName": "Add",
+    "comment": "蹊径-基于模板创建落地页",
+    "hasBody": true
+  },
+  {
+    "module": "xijing_page",
+    "operation": "delete",
+    "method": "POST",
+    "path": "/xijing_page/delete",
+    "funcName": "Delete",
+    "comment": "蹊径-删除落地页",
+    "hasBody": true
+  },
+  {
+    "module": "xijing_page",
+    "operation": "update",
+    "method": "POST",
+    "path": "/xijing_page/update",
+    "funcName": "Update",
+    "comment": "蹊径-送审落地页",
+    "hasBody": true
+  },
+  {
+    "module": "xijing_page_by_components",
+    "operation": "add",
+    "method": "POST",
+    "path": "/xijing_page_by_components/add",
+    "funcName": "Add",
+    "comment": "蹊径-基于组件创建落地页",
+    "hasBody": true
+  },
+  {
+    "module": "xijing_page_interactive",
+    "operation": "add",
+    "method": "POST",
+    "path": "/xijing_page_interactive/add",
+    "funcName": "Add",
+    "comment": "蹊径-创建互动落地页",
+    "hasBody": true
+  },
+  {
+    "module": "xijing_page_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/xijing_page_list/get",
+    "funcName": "Get",
+    "comment": "蹊径-获取落地页列表",
+    "hasBody": false
+  },
+  {
+    "module": "xijing_template",
+    "operation": "get",
+    "method": "GET",
+    "path": "/xijing_template/get",
+    "funcName": "Get",
+    "comment": "获取蹊径落地页模板",
+    "hasBody": false
+  },
+  {
+    "module": "xijing_template_list",
+    "operation": "get",
+    "method": "GET",
+    "path": "/xijing_template_list/get",
+    "funcName": "Get",
+    "comment": "获取蹊径落地页模板列表",
+    "hasBody": false
+  }
+]

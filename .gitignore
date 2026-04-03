@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.js.map
+.env
+.env.*
+!.env.example
+.DS_Store
+/tmp/
+*.secret*
+*.token*
+.tencent-ad-token.json
