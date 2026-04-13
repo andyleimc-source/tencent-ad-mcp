@@ -9,7 +9,7 @@ import { registerReportTools } from "./reports.js";
 import { registerAudienceTools } from "./audiences.js";
 import { registerFundTools } from "./funds.js";
 import { registerLeadTools } from "./leads.js";
-import { registerGeneratedTools } from "./generated/index.js";
+// import { registerGeneratedTools } from "./generated/index.js"; // 358 generated tools disabled
 
 export function registerAllTools(server: McpServer) {
   registerOAuthTools(server);
@@ -22,5 +22,5 @@ export function registerAllTools(server: McpServer) {
   registerAudienceTools(server);
   registerFundTools(server);
   registerLeadTools(server);
-  registerGeneratedTools(server);
+  // registerGeneratedTools(server); // disabled: 358 auto-generated tools
 }
